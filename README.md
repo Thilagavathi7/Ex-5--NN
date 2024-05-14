@@ -110,7 +110,8 @@ print(f"Input:{np.array([1, 1])}, Predicted: {predict_matrix(np.array([1, 1]), w
 
 <H3>OUTPUT:</H3>
 
-![Uploading 330450466-f1221ff7-3fd2-4441-8d24-49b4e44b7599.png…]()
+![330450466-f1221ff7-3fd2-4441-8d24-49b4e44b7599](https://github.com/Thilagavathi7/Ex-5--NN/assets/119407159/8c9d6ce2-1a1f-4fb5-b30c-c2b35224fa69)
+
 
 
 <H3>Result:</H3>
