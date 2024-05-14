@@ -1,7 +1,7 @@
-<H3>ENTER YOUR NAME : Thilagavathi S</H3>
-<H3>ENTER YOUR REGISTER NO: 212222220053</H3>
+H3>ENTER YOUR NAME: Thilagavathi S</H3>
+<H3>ENTER YOUR REGISTER NO. 212222220053</H3> 
 <H3>EX. NO.5</H3>
-<H3>DATE:</H3>
+<H3>DATE:  </H3>
 <H1 ALIGN =CENTER>Implementation of XOR  using RBF</H1>
 <H3>Aim:</H3>
 To implement a XOR gate classification using Radial Basis Function  Neural Network.
@@ -34,6 +34,7 @@ Step 6: Test the network for accuracy<br>
 Step 7: Plot the Input space and Hidden space of RBF NN for XOR classification.
 
 <H3>PROGRAM:</H3>
+
 ```
 import numpy as np
 import matplotlib.pyplot as plt
@@ -89,29 +90,28 @@ def predict_matrix(point, weights):
     A = np.array([gaussian_rbf_0, gaussian_rbf_1, 1])
     return np.round(A.dot(weights))
 
-// points
+# points
 x1 = np.array([0, 0, 1, 1])
 x2 = np.array([0, 1, 0, 1])
 ys = np.array([0, 1, 1, 0])
 
-// centers
+# centers
 mu1 = np.array([0, 1])
 mu2 = np.array([1, 0])
 
 w = end_to_end(x1, x2, ys, mu1, mu2)
 
- //testing
+# testing
 print(f"Input:{np.array([0, 0])}, Predicted: {predict_matrix(np.array([0, 0]), w)}")
 print(f"Input:{np.array([0, 1])}, Predicted: {predict_matrix(np.array([0, 1]), w)}")
 print(f"Input:{np.array([1, 0])}, Predicted: {predict_matrix(np.array([1, 0]), w)}")
 print(f"Input:{np.array([1, 1])}, Predicted: {predict_matrix(np.array([1, 1]), w)}")
-```
 
+```
 
 <H3>OUTPUT:</H3>
 
-![330450466-f1221ff7-3fd2-4441-8d24-49b4e44b7599](https://github.com/Thilagavathi7/Ex-5--NN/assets/119407159/8c9d6ce2-1a1f-4fb5-b30c-c2b35224fa69)
-
+![image](https://github.com/HamsiniKannan/Ex-5--NN/assets/119393929/465512e1-6f03-4787-85ff-b5cbdd45583b)
 
 
 <H3>Result:</H3>
